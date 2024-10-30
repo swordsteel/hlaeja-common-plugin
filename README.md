@@ -15,6 +15,12 @@ Set core Java and Kotlin settings and overweight project version with git versio
 * `buildInfo` display name and version, add to `build` task.
 * `projectInfo` display project, Gradle, and Java information
 
+### Plugin Common Detekt
+
+id `ltd.hlaeja.plugin.hlaeja-common-plugin.common-detekt`
+
+Detect is a code smell analysis for your Kotlin projects.
+
 ## Releasing plugin
 
 Run `release.sh` script from `master` branch.
