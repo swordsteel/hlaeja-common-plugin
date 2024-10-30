@@ -4,6 +4,17 @@ Plugins for the libraries, lofty and grand, Plugins for the services, steadfast 
 
 ## Plugins
 
+### Plugin Common
+
+id `ltd.hlaeja.plugin.hlaeja-common-plugin.common`
+
+Set core Java and Kotlin settings and overweight project version with git version.
+
+#### Gradle Tasks
+
+* `buildInfo` display name and version, add to `build` task.
+* `projectInfo` display project, Gradle, and Java information
+
 ## Releasing plugin
 
 Run `release.sh` script from `master` branch.
