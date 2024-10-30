@@ -12,6 +12,8 @@ plugins {
 }
 
 dependencies {
+    implementation(hlaeja.ltd.hlaeja.plugin.core)
+    implementation(hlaeja.org.jetbrains.kotlin.gradle.plugin)
 }
 
 description = "Hlæja Common Plugin"
