@@ -16,6 +16,7 @@ dependencies {
     implementation(hlaeja.ltd.hlaeja.plugin.core)
     implementation(hlaeja.org.jetbrains.kotlin.gradle.plugin)
     implementation(hlaeja.org.jlleitschuh.ktlint.gradle.plugin)
+    implementation(hlaeja.org.springframework.springboot.gradle.plugin)
 }
 
 description = "Hlæja Common Plugin"

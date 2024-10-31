@@ -24,6 +24,7 @@ dependencyResolutionManagement {
         mavenLocal()
         hlaejaRepository(this)
         gradlePluginPortal()
+        mavenCentral()
     }
     versionCatalogs.create("hlaeja").from("ltd.hlaeja.catalog:hlaeja-version-catalog:${getProperty("catalog")}")
 }
