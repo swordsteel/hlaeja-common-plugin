@@ -45,6 +45,12 @@ id `ltd.hlaeja.plugin.hlaeja-common-plugin.library-publish`
 
 Configuration for publishing project artifacts to a remote Maven repository.
 
+### Plugin Service
+
+id `ltd.hlaeja.plugin.hlaeja-common-plugin.service`
+
+Default setting and tasks for services.
+
 ## Releasing plugin
 
 Run `release.sh` script from `master` branch.
