@@ -27,6 +27,12 @@ id `ltd.hlaeja.plugin.hlaeja-common-plugin.common-ktlint`
 
 Ktlint enforces consistent code style and formatting across Kotlin codebases.
 
+### Plugin Library
+
+id `ltd.hlaeja.plugin.hlaeja-common-plugin.library`
+
+Default setting and tasks for libraries.
+
 ## Releasing plugin
 
 Run `release.sh` script from `master` branch.
