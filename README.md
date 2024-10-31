@@ -33,6 +33,12 @@ id `ltd.hlaeja.plugin.hlaeja-common-plugin.library`
 
 Default setting and tasks for libraries.
 
+### Plugin Library Manifest
+
+id `ltd.hlaeja.plugin.hlaeja-common-plugin.library-manifest`
+
+Extend manifest in library jar file.
+
 ## Releasing plugin
 
 Run `release.sh` script from `master` branch.
