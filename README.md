@@ -21,6 +21,12 @@ id `ltd.hlaeja.plugin.hlaeja-common-plugin.common-detekt`
 
 Detect is a code smell analysis for your Kotlin projects.
 
+### Plugin Common Ktlint
+
+id `ltd.hlaeja.plugin.hlaeja-common-plugin.common-ktlint`
+
+Ktlint enforces consistent code style and formatting across Kotlin codebases.
+
 ## Releasing plugin
 
 Run `release.sh` script from `master` branch.
