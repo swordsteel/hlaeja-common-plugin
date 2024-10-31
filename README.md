@@ -39,6 +39,12 @@ id `ltd.hlaeja.plugin.hlaeja-common-plugin.library-manifest`
 
 Extend manifest in library jar file.
 
+### Plugin Library publish
+
+id `ltd.hlaeja.plugin.hlaeja-common-plugin.library-publish`
+
+Configuration for publishing project artifacts to a remote Maven repository.
+
 ## Releasing plugin
 
 Run `release.sh` script from `master` branch.
