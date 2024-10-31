@@ -15,6 +15,7 @@ dependencies {
     implementation(hlaeja.io.gitlab.arturbosch.detekt.gradle.plugin)
     implementation(hlaeja.ltd.hlaeja.plugin.core)
     implementation(hlaeja.org.jetbrains.kotlin.gradle.plugin)
+    implementation(hlaeja.org.jlleitschuh.ktlint.gradle.plugin)
 }
 
 description = "Hlæja Common Plugin"

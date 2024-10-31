@@ -1,5 +1,7 @@
 plugins {
     id("ltd.hlaeja.plugin.hlaeja-common-plugin.common-detekt")
+    id("ltd.hlaeja.plugin.hlaeja-common-plugin.common-ktlint")
+
     id("ltd.hlaeja.plugin.hlaeja-core-plugin")
 
     kotlin("jvm")
