@@ -86,6 +86,12 @@ Adding intellij support `src/integration-test/java`, `src/integration-test/kotli
 
 Adding dependencies support `integrationTestImplementation()`, and `integrationTestRuntimeOnly()` as part of Gradle.
 
+### Plugin Service Process Resource
+
+id `ltd.hlaeja.plugin.hlaeja-common-plugin.service-process-resource`
+
+Assign values to `application.yml` from Gradle.
+
 ## Releasing plugin
 
 Run `release.sh` script from `master` branch.
