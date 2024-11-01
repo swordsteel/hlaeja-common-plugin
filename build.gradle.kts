@@ -12,6 +12,7 @@ plugins {
 }
 
 dependencies {
+    implementation(hlaeja.com.bmuschko.docker.gradle.plugin)
     implementation(hlaeja.io.gitlab.arturbosch.detekt.gradle.plugin)
     implementation(hlaeja.ltd.hlaeja.plugin.core)
     implementation(hlaeja.org.jetbrains.kotlin.gradle.plugin)
