@@ -51,6 +51,28 @@ id `ltd.hlaeja.plugin.hlaeja-common-plugin.service`
 
 Default setting and tasks for services.
 
+### Plugin Service Container
+
+id `ltd.hlaeja.plugin.hlaeja-common-plugin.service-container`
+
+Configuration for running project in docker locally during development.
+
+#### Configuration
+
+* properties `container.network`, environment `CONTAINER_NETWORK`, or default `develop`
+* properties `container.port`, environment `CONTAINER_PORT`, or default `8080`
+* properties `container.profiles`, environment `CONTAINER_PROFILES`, or default `docker`
+
+#### Gradle Tasks
+
+* `containerBuild` build docker images.
+* `containerCreate` create docker container with network and spring boot profile.
+* `containerStart` starts docker container.
+* `containerStop` stops docker container.
+* `containerNetworkCheck` check if network exist.
+* `containerNetworkCreate` creates network.
+* `containerNetworkRemove` removes network.
+
 ## Releasing plugin
 
 Run `release.sh` script from `master` branch.
