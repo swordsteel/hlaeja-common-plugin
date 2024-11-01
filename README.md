@@ -76,6 +76,16 @@ container and docker ports can be a single port (e.g., 8080) or multiple ports s
 * `containerNetworkCreate` creates network.
 * `containerNetworkRemove` removes network.
 
+### Plugin Service Integration Test
+
+id `ltd.hlaeja.plugin.hlaeja-common-plugin.service-integration-test`
+
+Adding task `integrationTest` to run integration test, add to `verification` group and add to task `check`.
+
+Adding intellij support `src/integration-test/java`, `src/integration-test/kotlin`, and `src/integration-test/resources` as test module in intellij.
+
+Adding dependencies support `integrationTestImplementation()`, and `integrationTestRuntimeOnly()` as part of Gradle.
+
 ## Releasing plugin
 
 Run `release.sh` script from `master` branch.
