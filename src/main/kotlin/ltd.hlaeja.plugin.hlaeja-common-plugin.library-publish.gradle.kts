@@ -1,23 +1,16 @@
-import java.lang.System.getenv
-
 plugins {
+    id("ltd.hlaeja.plugin.hlaeja-core-plugin")
     `maven-publish`
 }
 
 publishing {
     repositories {
-
-        fun retrieveConfiguration(
-            property: String,
-            environment: String,
-        ): String? = project.findProperty(property)?.toString() ?: getenv(environment)
-
         maven {
             url = uri("https://maven.pkg.github.com/swordsteel/${project.name}")
             name = "GitHubPackages"
             credentials {
-                username = retrieveConfiguration("repository.user", "REPOSITORY_USER")
-                password = retrieveConfiguration("repository.token", "REPOSITORY_TOKEN")
+                username = config.find("repository.user", "REPOSITORY_USER")
+                password = config.find("repository.token", "REPOSITORY_TOKEN")
             }
         }
     }
