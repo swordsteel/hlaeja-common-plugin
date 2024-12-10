@@ -92,6 +92,12 @@ id `ltd.hlaeja.plugin.hlaeja-common-plugin.service-process-resource`
 
 Assign values to `application.yml` from Gradle.
 
+### Plugin Certificate
+
+id `ltd.hlaeja.plugin.hlaeja-common-plugin.cetificat`
+
+Copy certificate to build resources by placing one or more of `private_key.pem`, `public_key.pem`, or `keystore.p12` in `/cert` folder.  
+
 ## Releasing plugin
 
 Run `release.sh` script from `master` branch.
