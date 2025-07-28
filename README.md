@@ -100,7 +100,7 @@ Copy certificate to build resources by placing one or more of `private_key.pem`,
 
 ## Releasing plugin
 
-Run `release.sh` script from `master` branch.
+Run release pipeline from `master` branch.
 
 ## Publishing plugin
 

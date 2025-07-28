@@ -2,9 +2,9 @@ import io.gitlab.arturbosch.detekt.Detekt
 import io.gitlab.arturbosch.detekt.extensions.DetektExtension.Companion.DEFAULT_SRC_DIR_KOTLIN
 
 plugins {
-    alias(hlaeja.plugins.io.gitlab.arturbosch.detekt)
+    alias(hlaeja.plugins.gradle.detekt)
     alias(hlaeja.plugins.kotlin.jvm)
-    alias(hlaeja.plugins.ltd.hlaeja.plugin.core)
+    alias(hlaeja.plugins.core)
 
     `kotlin-dsl`
     `maven-publish`
