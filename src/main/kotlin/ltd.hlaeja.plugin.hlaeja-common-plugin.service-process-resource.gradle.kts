@@ -6,14 +6,16 @@ plugins {
 
 tasks {
     withType<ProcessResources> {
+        val projectName = project.name
+        val projectVersion = project.version
         filesMatching("**/application.yml") {
             filter {
                 it.replace(
                     "%APP_NAME%",
-                    project.name.split("-").joinToString(" ") { word -> word.uppercaseFirstChar() },
+                    projectName.split("-").joinToString(" ") { word -> word.uppercaseFirstChar() },
                 )
             }
-            filter { it.replace("%APP_VERSION%", project.version as String) }
+            filter { it.replace("%APP_VERSION%", projectVersion as String) }
             filter { it.replace("%APP_BUILD_TIME%", info.utcTimestamp) }
             filter { it.replace("%APP_BUILD_OS_NAME%", System.getProperty("os.name")) }
             filter { it.replace("%APP_BUILD_OS_VERSION%", System.getProperty("os.version")) }
