@@ -98,7 +98,7 @@ id `ltd.hlaeja.plugin.hlaeja-common-plugin.cetificat`
 
 Copy certificate to build resources by placing one or more of `private_key.pem`, `public_key.pem`, or `keystore.p12` in `/cert` folder.  
 
-## Releasing plugin
+## Releasing Plugin
 
 Run release pipeline from `master` branch.
 
@@ -113,7 +113,7 @@ Run release pipeline from `master` branch.
 ### Publish plugin to repository
 
 ```shell
-./gradlew clean build publish
+./gradlew clean build publishAllPublicationsToGitHubPackagesRepository
 ```
 
 ### Global gradle properties
